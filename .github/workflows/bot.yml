@@ -34,5 +34,5 @@ jobs:
          timeout-minutes: 350
          continue-on-error: true
          run: |
-           python4 -m bot
+           python3 -m bot
            echo "Bot Died"
