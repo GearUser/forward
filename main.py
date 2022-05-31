@@ -8,8 +8,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-FROM_CHANNELS = set(int(x) for x in os.environ.get("FROM_CHANNELS", "").split())
-TO_CHAT = int(os.environ["TO_CHAT"])
+FROM_CHANNELS = set(int(x) for x in ("-1001544005690").split())
+TO_CHAT = int("-1001650670895")
 
 # filters for auto post
 FILTER_TEXT = bool(os.environ.get("FILTER_TEXT", True))
