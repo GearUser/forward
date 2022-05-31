@@ -29,9 +29,9 @@ FILTER_GAME = bool(os.environ.get("FILTER_GAME", True))
 
 FayasNoushad = Client(
     "Channel Auto Post Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = "5594361666:AAHhCAkw7Qt_Q7wLsasA31ZYzyPV1VIiO20"
+    api_id = "3845818"
+    api_hash = "95937bcf6bc0938f263fc7ad96959c6d"
 )
 
 START_TEXT = """
